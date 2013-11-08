@@ -21,10 +21,6 @@ Pod::Spec.new do |s|
   s.subspec 'ReactiveCocoa' do |rac|
     rac.dependency 'ReactiveCocoa'
     rac.source_files = 'DPAdditions/ReactiveCocoa/**/*.{h,m}'
-#     rac.prefix_header_contents = <<-EOS
-# #import <ReactiveCocoa/ReactiveCocoa.h>
-# EOS
   end
-
 end
 
