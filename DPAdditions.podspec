@@ -5,11 +5,11 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    Useful and convenient category methods for Foundation and UIKit classes.
                    DESC
-  s.homepage     = "https://github.com/dperic/DPAdditions"
+  s.homepage     = "https://github.com/DuneParkSoftware/DPAdditions"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Eric Baker" => "ebaker@duneparksoftware.com" }
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/dperic/DPAdditions.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/DuneParkSoftware/DPAdditions.git", :tag => "0.0.3" }
   s.source_files = 'DPAdditions', 'DPAdditions/**/*.{h,m}'
   s.requires_arc = true
 
