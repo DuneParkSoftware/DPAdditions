@@ -10,11 +10,11 @@
 
 @implementation UIBarButtonItem (DPAdditions)
 
-+ (UIBarButtonItem *)fixedSpaceItem {
++ (UIBarButtonItem *)dp_fixedSpaceItem {
     return [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
 }
 
-+ (UIBarButtonItem *)flexibleSpaceItem {
++ (UIBarButtonItem *)dp_flexibleSpaceItem {
     return [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
 }
 

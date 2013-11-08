@@ -10,19 +10,19 @@
 
 @implementation NSString (DPAdditions)
 
-- (BOOL)isBlank {
-    return [self lengthWhenTrimmed] < 1;
+- (BOOL)dp_isBlank {
+    return [self dp_lengthWhenTrimmed] < 1;
 }
 
-- (BOOL)isEmpty {
+- (BOOL)dp_isEmpty {
     return [self length] < 1;
 }
 
-- (NSUInteger)lengthWhenTrimmed {
-    return [[[self copy] trim] length];
+- (NSUInteger)dp_lengthWhenTrimmed {
+    return [[[self copy] dp_trim] length];
 }
 
-- (NSString *)trim {
+- (NSString *)dp_trim {
     return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 

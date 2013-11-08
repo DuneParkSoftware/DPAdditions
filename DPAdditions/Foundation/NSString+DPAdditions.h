@@ -10,11 +10,11 @@
 
 @interface NSString (DPAdditions)
 
-- (BOOL)isBlank;
-- (BOOL)isEmpty;
+- (BOOL)dp_isBlank;
+- (BOOL)dp_isEmpty;
 
-- (NSUInteger)lengthWhenTrimmed;
+- (NSUInteger)dp_lengthWhenTrimmed;
 
-- (NSString *)trim;
+- (NSString *)dp_trim;
 
 @end

@@ -10,7 +10,7 @@
 
 @interface UIBarButtonItem (DPAdditions)
 
-+ (UIBarButtonItem *)fixedSpaceItem;
-+ (UIBarButtonItem *)flexibleSpaceItem;
++ (UIBarButtonItem *)dp_fixedSpaceItem;
++ (UIBarButtonItem *)dp_flexibleSpaceItem;
 
 @end
