@@ -5,5 +5,6 @@ pod 'ReactiveCocoa'
 end
 
 target "DPAdditionsDemoTests", :exclusive => true do
+pod 'Kiwi/XCTest'
 end
 

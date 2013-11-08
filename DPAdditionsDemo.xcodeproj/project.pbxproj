@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DDBB0A22BB543DDAFF20B1F /* libPods-DPAdditionsDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3797FA7D884A4FC2A8F3BFF2 /* libPods-DPAdditionsDemoTests.a */; };
+		7125D817182D4D2B009E57DE /* DPFoundationAdditionsSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 7125D816182D4D2B009E57DE /* DPFoundationAdditionsSpecs.m */; };
 		716DAD66182CAA1B001C4773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716DAD65182CAA1B001C4773 /* Foundation.framework */; };
 		716DAD68182CAA1B001C4773 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716DAD67182CAA1B001C4773 /* CoreGraphics.framework */; };
 		716DAD6A182CAA1B001C4773 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716DAD69182CAA1B001C4773 /* UIKit.framework */; };
@@ -18,11 +20,10 @@
 		716DAD80182CAA1B001C4773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716DAD65182CAA1B001C4773 /* Foundation.framework */; };
 		716DAD81182CAA1B001C4773 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716DAD69182CAA1B001C4773 /* UIKit.framework */; };
 		716DAD89182CAA1B001C4773 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 716DAD87182CAA1B001C4773 /* InfoPlist.strings */; };
-		716DAD8B182CAA1B001C4773 /* DPAdditionsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716DAD8A182CAA1B001C4773 /* DPAdditionsDemoTests.m */; };
 		716DAD9C182CAC38001C4773 /* NSString+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 716DAD9B182CAC38001C4773 /* NSString+DPAdditions.m */; };
 		716DAD9F182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 716DAD9E182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.m */; };
-		71824AB2182D411700913AD7 /* UIApplication+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71824AB1182D411700913AD7 /* UIApplication+DPAdditions.m */; };
 		718B4A74182D1A0E00B8006E /* RACSignal+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B4A73182D1A0E00B8006E /* RACSignal+DPAdditions.m */; };
+		718B7B55182D6C530047CEB1 /* DPUIKitAdditionsSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B7B54182D6C530047CEB1 /* DPUIKitAdditionsSpecs.m */; };
 		DE14A6150E174BFBABD3BCED /* libPods-DPAdditionsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E49F5805023C4F928FF3804F /* libPods-DPAdditionsDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		22AC8A575967438ABAD3E219 /* Pods-DPAdditionsDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPAdditionsDemo.xcconfig"; path = "Pods/Pods-DPAdditionsDemo.xcconfig"; sourceTree = "<group>"; };
+		3797FA7D884A4FC2A8F3BFF2 /* libPods-DPAdditionsDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DPAdditionsDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7125D816182D4D2B009E57DE /* DPFoundationAdditionsSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFoundationAdditionsSpecs.m; sourceTree = "<group>"; };
 		716DAD62182CAA1B001C4773 /* DPAdditionsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPAdditionsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		716DAD65182CAA1B001C4773 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		716DAD67182CAA1B001C4773 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,7 +56,6 @@
 		716DAD7E182CAA1B001C4773 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		716DAD86182CAA1B001C4773 /* DPAdditionsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DPAdditionsDemoTests-Info.plist"; sourceTree = "<group>"; };
 		716DAD88182CAA1B001C4773 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		716DAD8A182CAA1B001C4773 /* DPAdditionsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAdditionsDemoTests.m; sourceTree = "<group>"; };
 		716DAD97182CABB9001C4773 /* DPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAdditions.h; sourceTree = "<group>"; };
 		716DAD98182CAC04001C4773 /* Foundation+DPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foundation+DPAdditions.h"; sourceTree = "<group>"; };
 		716DAD99182CAC14001C4773 /* UIKit+DPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKit+DPAdditions.h"; sourceTree = "<group>"; };
@@ -61,10 +63,10 @@
 		716DAD9B182CAC38001C4773 /* NSString+DPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DPAdditions.m"; sourceTree = "<group>"; };
 		716DAD9D182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DPAdditions.h"; sourceTree = "<group>"; };
 		716DAD9E182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+DPAdditions.m"; sourceTree = "<group>"; };
-		71824AB0182D411700913AD7 /* UIApplication+DPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+DPAdditions.h"; sourceTree = "<group>"; };
-		71824AB1182D411700913AD7 /* UIApplication+DPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+DPAdditions.m"; sourceTree = "<group>"; };
 		718B4A72182D1A0E00B8006E /* RACSignal+DPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACSignal+DPAdditions.h"; sourceTree = "<group>"; };
 		718B4A73182D1A0E00B8006E /* RACSignal+DPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACSignal+DPAdditions.m"; sourceTree = "<group>"; };
+		718B7B54182D6C530047CEB1 /* DPUIKitAdditionsSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPUIKitAdditionsSpecs.m; sourceTree = "<group>"; };
+		D25543DD498B4FE391959BD8 /* Pods-DPAdditionsDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPAdditionsDemoTests.xcconfig"; path = "Pods/Pods-DPAdditionsDemoTests.xcconfig"; sourceTree = "<group>"; };
 		E49F5805023C4F928FF3804F /* libPods-DPAdditionsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DPAdditionsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 				716DAD7F182CAA1B001C4773 /* XCTest.framework in Frameworks */,
 				716DAD81182CAA1B001C4773 /* UIKit.framework in Frameworks */,
 				716DAD80182CAA1B001C4773 /* Foundation.framework in Frameworks */,
+				6DDBB0A22BB543DDAFF20B1F /* libPods-DPAdditionsDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +104,7 @@
 				716DAD64182CAA1B001C4773 /* Frameworks */,
 				716DAD63182CAA1B001C4773 /* Products */,
 				22AC8A575967438ABAD3E219 /* Pods-DPAdditionsDemo.xcconfig */,
+				D25543DD498B4FE391959BD8 /* Pods-DPAdditionsDemoTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +125,7 @@
 				716DAD69182CAA1B001C4773 /* UIKit.framework */,
 				716DAD7E182CAA1B001C4773 /* XCTest.framework */,
 				E49F5805023C4F928FF3804F /* libPods-DPAdditionsDemo.a */,
+				3797FA7D884A4FC2A8F3BFF2 /* libPods-DPAdditionsDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,7 +156,8 @@
 		716DAD84182CAA1B001C4773 /* DPAdditionsDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				716DAD8A182CAA1B001C4773 /* DPAdditionsDemoTests.m */,
+				7125D816182D4D2B009E57DE /* DPFoundationAdditionsSpecs.m */,
+				718B7B54182D6C530047CEB1 /* DPUIKitAdditionsSpecs.m */,
 				716DAD85182CAA1B001C4773 /* Supporting Files */,
 			);
 			path = DPAdditionsDemoTests;
@@ -191,8 +197,6 @@
 		716DAD96182CAAEE001C4773 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				71824AB0182D411700913AD7 /* UIApplication+DPAdditions.h */,
-				71824AB1182D411700913AD7 /* UIApplication+DPAdditions.m */,
 				716DAD9D182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.h */,
 				716DAD9E182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.m */,
 				716DAD99182CAC14001C4773 /* UIKit+DPAdditions.h */,
@@ -235,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 716DAD91182CAA1B001C4773 /* Build configuration list for PBXNativeTarget "DPAdditionsDemoTests" */;
 			buildPhases = (
+				2FDAC181DCC840FBB2E06503 /* Check Pods Manifest.lock */,
 				716DAD79182CAA1B001C4773 /* Sources */,
 				716DAD7A182CAA1B001C4773 /* Frameworks */,
 				716DAD7B182CAA1B001C4773 /* Resources */,
+				9BB74A0EAEFE46AD97874C86 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -318,6 +324,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-DPAdditionsDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2FDAC181DCC840FBB2E06503 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		3E7BB821078C464F9F82346E /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,6 +354,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		9BB74A0EAEFE46AD97874C86 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-DPAdditionsDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -342,7 +378,6 @@
 			files = (
 				716DAD9F182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.m in Sources */,
 				716DAD9C182CAC38001C4773 /* NSString+DPAdditions.m in Sources */,
-				71824AB2182D411700913AD7 /* UIApplication+DPAdditions.m in Sources */,
 				718B4A74182D1A0E00B8006E /* RACSignal+DPAdditions.m in Sources */,
 				716DAD76182CAA1B001C4773 /* DPAppDelegate.m in Sources */,
 				716DAD72182CAA1B001C4773 /* main.m in Sources */,
@@ -353,7 +388,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				716DAD8B182CAA1B001C4773 /* DPAdditionsDemoTests.m in Sources */,
+				7125D817182D4D2B009E57DE /* DPFoundationAdditionsSpecs.m in Sources */,
+				718B7B55182D6C530047CEB1 /* DPUIKitAdditionsSpecs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +527,7 @@
 		};
 		716DAD92182CAA1B001C4773 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25543DD498B4FE391959BD8 /* Pods-DPAdditionsDemoTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DPAdditionsDemo.app/DPAdditionsDemo";
@@ -514,6 +551,7 @@
 		};
 		716DAD93182CAA1B001C4773 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25543DD498B4FE391959BD8 /* Pods-DPAdditionsDemoTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DPAdditionsDemo.app/DPAdditionsDemo";

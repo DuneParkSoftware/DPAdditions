@@ -6,5 +6,4 @@
 //  Copyright (c) 2013 DuneParkSoftware, LLC. All rights reserved.
 //
 
-#import "UIApplication+DPAdditions.h"
 #import "UIBarButtonItem+DPAdditions.h"
