@@ -10,7 +10,16 @@ Pod::Spec.new do |s|
   s.author       = { "Eric Baker" => "ebaker@duneparksoftware.com" }
   s.platform     = :ios, '7.0'
   s.source       = { :git => "https://github.com/dperic/DPAdditions.git", :tag => "0.0.2" }
-  s.source_files  = 'DPAdditions', 'DPAdditions/**/*.{h,m}'
+  s.source_files = 'DPAdditions', 'DPAdditions/**/*.{h,m}'
   s.requires_arc = true
+
+  s.subspec 'ReactiveCocoa' do |rac|
+    rac.dependency 'ReactiveCocoa'
+    rac.source_files = 'DPAdditions/ReactiveCocoa/**/*.{h,m}'
+    rac.prefix_header_contents = <<-EOS
+#import <ReactiveCocoa/ReactiveCocoa.h>
+EOS
+  end
+
 end
 
