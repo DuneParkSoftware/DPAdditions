@@ -24,6 +24,7 @@
 		716DAD9F182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 716DAD9E182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.m */; };
 		718B4A74182D1A0E00B8006E /* RACSignal+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B4A73182D1A0E00B8006E /* RACSignal+DPAdditions.m */; };
 		718B7B55182D6C530047CEB1 /* DPUIKitAdditionsSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B7B54182D6C530047CEB1 /* DPUIKitAdditionsSpecs.m */; };
+		71D2E3BD182F2DDE00A3F3C8 /* UIColor+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D2E3BC182F2DDE00A3F3C8 /* UIColor+DPAdditions.m */; };
 		DE14A6150E174BFBABD3BCED /* libPods-DPAdditionsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E49F5805023C4F928FF3804F /* libPods-DPAdditionsDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,8 @@
 		718B4A72182D1A0E00B8006E /* RACSignal+DPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACSignal+DPAdditions.h"; sourceTree = "<group>"; };
 		718B4A73182D1A0E00B8006E /* RACSignal+DPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACSignal+DPAdditions.m"; sourceTree = "<group>"; };
 		718B7B54182D6C530047CEB1 /* DPUIKitAdditionsSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPUIKitAdditionsSpecs.m; sourceTree = "<group>"; };
+		71D2E3BB182F2DDE00A3F3C8 /* UIColor+DPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DPAdditions.h"; sourceTree = "<group>"; };
+		71D2E3BC182F2DDE00A3F3C8 /* UIColor+DPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DPAdditions.m"; sourceTree = "<group>"; };
 		D25543DD498B4FE391959BD8 /* Pods-DPAdditionsDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPAdditionsDemoTests.xcconfig"; path = "Pods/Pods-DPAdditionsDemoTests.xcconfig"; sourceTree = "<group>"; };
 		E49F5805023C4F928FF3804F /* libPods-DPAdditionsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DPAdditionsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -199,6 +202,8 @@
 			children = (
 				716DAD9D182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.h */,
 				716DAD9E182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.m */,
+				71D2E3BB182F2DDE00A3F3C8 /* UIColor+DPAdditions.h */,
+				71D2E3BC182F2DDE00A3F3C8 /* UIColor+DPAdditions.m */,
 				716DAD99182CAC14001C4773 /* UIKit+DPAdditions.h */,
 			);
 			path = UIKit;
@@ -381,6 +386,7 @@
 				718B4A74182D1A0E00B8006E /* RACSignal+DPAdditions.m in Sources */,
 				716DAD76182CAA1B001C4773 /* DPAppDelegate.m in Sources */,
 				716DAD72182CAA1B001C4773 /* main.m in Sources */,
+				71D2E3BD182F2DDE00A3F3C8 /* UIColor+DPAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
