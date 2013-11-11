@@ -1,5 +1,5 @@
 //
-//  RACSignal+DPAdditions.h
+//  RACSignal+DPRACAdditions.h
 //  DPAdditionsDemo
 //
 //  Created by Eric D. Baker on 10/29/13.
@@ -8,7 +8,7 @@
 
 #import "RACSignal.h"
 
-@interface RACSignal (DPAdditions)
+@interface RACSignal (DPRACAdditions)
 
 - (RACSignal *)dp_doErrorOrCompleted:(void (^)(NSError *error, BOOL completed))errorOrCompletedBlock;
 - (RACSignal *)dp_doNext:(void (^)(id))nextBlock errorOrCompleted:(void (^)(NSError *error, BOOL completed))errorOrCompletedBlock;

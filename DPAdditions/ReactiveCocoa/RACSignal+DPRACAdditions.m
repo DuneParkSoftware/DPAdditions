@@ -1,5 +1,5 @@
 //
-//  RACSignal+DPAdditions.m
+//  RACSignal+DPRACAdditions.m
 //  DPAdditions
 //
 //  Created by Eric D. Baker on 10/29/13.
@@ -7,9 +7,9 @@
 //
 
 #import <ReactiveCocoa/ReactiveCocoa.h>
-#import "RACSignal+DPAdditions.h"
+#import "RACSignal+DPRACAdditions.h"
 
-@implementation RACSignal (DPAdditions)
+@implementation RACSignal (DPRACAdditions)
 
 - (RACSignal *)dp_doErrorOrCompleted:(void (^)(NSError *error, BOOL completed))errorOrCompletedBlock {
     return [[self doError:^(NSError *error) {
