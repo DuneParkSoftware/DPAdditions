@@ -6,5 +6,5 @@
 //  Copyright (c) 2013 DuneParkSoftware, LLC. All rights reserved.
 //
 
-#import "RACSignal+DPAdditions.h"
+#import "RACSignal+DPRACAdditions.h"
 #import "UITextField+DPRACAdditions.h"
