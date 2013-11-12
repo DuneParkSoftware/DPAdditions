@@ -10,6 +10,7 @@
 		6DDBB0A22BB543DDAFF20B1F /* libPods-DPAdditionsDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3797FA7D884A4FC2A8F3BFF2 /* libPods-DPAdditionsDemoTests.a */; };
 		7125D817182D4D2B009E57DE /* DPFoundationAdditionsSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 7125D816182D4D2B009E57DE /* DPFoundationAdditionsSpecs.m */; };
 		71542CA518326A6C0044C631 /* AFHTTPSessionManager+DPAFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71542CA418326A6C0044C631 /* AFHTTPSessionManager+DPAFAdditions.m */; };
+		71542CA918327EA10044C631 /* UITableView+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71542CA818327EA10044C631 /* UITableView+DPAdditions.m */; };
 		716AA32D183076CB00FD7C66 /* UITextField+DPRACAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 716AA32C183076CB00FD7C66 /* UITextField+DPRACAdditions.m */; };
 		716DAD66182CAA1B001C4773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716DAD65182CAA1B001C4773 /* Foundation.framework */; };
 		716DAD68182CAA1B001C4773 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716DAD67182CAA1B001C4773 /* CoreGraphics.framework */; };
@@ -47,6 +48,8 @@
 		71542CA318326A6C0044C631 /* AFHTTPSessionManager+DPAFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+DPAFAdditions.h"; sourceTree = "<group>"; };
 		71542CA418326A6C0044C631 /* AFHTTPSessionManager+DPAFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+DPAFAdditions.m"; sourceTree = "<group>"; };
 		71542CA618326A820044C631 /* AFNetworking+DPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworking+DPAdditions.h"; sourceTree = "<group>"; };
+		71542CA718327EA10044C631 /* UITableView+DPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DPAdditions.h"; sourceTree = "<group>"; };
+		71542CA818327EA10044C631 /* UITableView+DPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DPAdditions.m"; sourceTree = "<group>"; };
 		716AA32B183076CB00FD7C66 /* UITextField+DPRACAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+DPRACAdditions.h"; sourceTree = "<group>"; };
 		716AA32C183076CB00FD7C66 /* UITextField+DPRACAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DPRACAdditions.m"; sourceTree = "<group>"; };
 		716AA32E183079A200FD7C66 /* ReactiveCocoa+DPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoa+DPAdditions.h"; sourceTree = "<group>"; };
@@ -224,6 +227,8 @@
 				71D2E3BB182F2DDE00A3F3C8 /* UIColor+DPAdditions.h */,
 				71D2E3BC182F2DDE00A3F3C8 /* UIColor+DPAdditions.m */,
 				716DAD99182CAC14001C4773 /* UIKit+DPAdditions.h */,
+				71542CA718327EA10044C631 /* UITableView+DPAdditions.h */,
+				71542CA818327EA10044C631 /* UITableView+DPAdditions.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -411,6 +416,7 @@
 				716DAD76182CAA1B001C4773 /* DPAppDelegate.m in Sources */,
 				716DAD72182CAA1B001C4773 /* main.m in Sources */,
 				71D2E3BD182F2DDE00A3F3C8 /* UIColor+DPAdditions.m in Sources */,
+				71542CA918327EA10044C631 /* UITableView+DPAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
