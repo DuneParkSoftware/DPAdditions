@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6DDBB0A22BB543DDAFF20B1F /* libPods-DPAdditionsDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3797FA7D884A4FC2A8F3BFF2 /* libPods-DPAdditionsDemoTests.a */; };
 		7125D817182D4D2B009E57DE /* DPFoundationAdditionsSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 7125D816182D4D2B009E57DE /* DPFoundationAdditionsSpecs.m */; };
+		71542CA518326A6C0044C631 /* AFHTTPSessionManager+DPAFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71542CA418326A6C0044C631 /* AFHTTPSessionManager+DPAFAdditions.m */; };
 		716AA32D183076CB00FD7C66 /* UITextField+DPRACAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 716AA32C183076CB00FD7C66 /* UITextField+DPRACAdditions.m */; };
 		716DAD66182CAA1B001C4773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716DAD65182CAA1B001C4773 /* Foundation.framework */; };
 		716DAD68182CAA1B001C4773 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716DAD67182CAA1B001C4773 /* CoreGraphics.framework */; };
@@ -43,6 +44,9 @@
 		22AC8A575967438ABAD3E219 /* Pods-DPAdditionsDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPAdditionsDemo.xcconfig"; path = "Pods/Pods-DPAdditionsDemo.xcconfig"; sourceTree = "<group>"; };
 		3797FA7D884A4FC2A8F3BFF2 /* libPods-DPAdditionsDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DPAdditionsDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7125D816182D4D2B009E57DE /* DPFoundationAdditionsSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFoundationAdditionsSpecs.m; sourceTree = "<group>"; };
+		71542CA318326A6C0044C631 /* AFHTTPSessionManager+DPAFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+DPAFAdditions.h"; sourceTree = "<group>"; };
+		71542CA418326A6C0044C631 /* AFHTTPSessionManager+DPAFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+DPAFAdditions.m"; sourceTree = "<group>"; };
+		71542CA618326A820044C631 /* AFNetworking+DPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworking+DPAdditions.h"; sourceTree = "<group>"; };
 		716AA32B183076CB00FD7C66 /* UITextField+DPRACAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+DPRACAdditions.h"; sourceTree = "<group>"; };
 		716AA32C183076CB00FD7C66 /* UITextField+DPRACAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DPRACAdditions.m"; sourceTree = "<group>"; };
 		716AA32E183079A200FD7C66 /* ReactiveCocoa+DPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoa+DPAdditions.h"; sourceTree = "<group>"; };
@@ -103,6 +107,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71542CA2183269DE0044C631 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				71542CA318326A6C0044C631 /* AFHTTPSessionManager+DPAFAdditions.h */,
+				71542CA418326A6C0044C631 /* AFHTTPSessionManager+DPAFAdditions.m */,
+				71542CA618326A820044C631 /* AFNetworking+DPAdditions.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 		716DAD59182CAA1B001C4773 = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +196,7 @@
 		716DAD94182CAAC3001C4773 /* DPAdditions */ = {
 			isa = PBXGroup;
 			children = (
+				71542CA2183269DE0044C631 /* AFNetworking */,
 				716DAD97182CABB9001C4773 /* DPAdditions.h */,
 				716DAD95182CAADD001C4773 /* Foundation */,
 				718B4A71182D19B000B8006E /* ReactiveCocoa */,
@@ -390,6 +405,7 @@
 			files = (
 				716DAD9F182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.m in Sources */,
 				716DAD9C182CAC38001C4773 /* NSString+DPAdditions.m in Sources */,
+				71542CA518326A6C0044C631 /* AFHTTPSessionManager+DPAFAdditions.m in Sources */,
 				716AA32D183076CB00FD7C66 /* UITextField+DPRACAdditions.m in Sources */,
 				718B4A74182D1A0E00B8006E /* RACSignal+DPRACAdditions.m in Sources */,
 				716DAD76182CAA1B001C4773 /* DPAppDelegate.m in Sources */,
