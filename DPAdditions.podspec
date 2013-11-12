@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'AFNetworking' do |af|
-    af.dependency = 'AFNetworking'
+    af.dependency 'AFNetworking'
     af.source_files = 'DPAdditions/AFNetworking/**/*.{h,m}'
   end
 
