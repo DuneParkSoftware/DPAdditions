@@ -7,3 +7,4 @@
 //
 
 #import "NSString+DPAdditions.h"
+#import "NSUserDefaults+DPAdditions.h"
