@@ -6,5 +6,7 @@
 //  Copyright (c) 2013 DuneParkSoftware, LLC. All rights reserved.
 //
 
+#import "CGGeometry+DPAdditions.h"
+
 #import "NSString+DPAdditions.h"
 #import "NSUserDefaults+DPAdditions.h"
