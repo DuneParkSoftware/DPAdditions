@@ -22,6 +22,7 @@
 + (UIBarButtonItem *)dp_fastForwardItemWithTarget:(id)target action:(SEL)action;
 + (UIBarButtonItem *)dp_fixedSpaceItem;
 + (UIBarButtonItem *)dp_flexibleSpaceItem;
++ (UIBarButtonItem *)dp_itemWithCustomView:(UIView *)view;
 + (UIBarButtonItem *)dp_organizeItemWithTarget:(id)target action:(SEL)action;
 + (UIBarButtonItem *)dp_pageCurlItemWithTarget:(id)target action:(SEL)action;
 + (UIBarButtonItem *)dp_pauseItemWithTarget:(id)target action:(SEL)action;

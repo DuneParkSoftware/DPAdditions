@@ -8,4 +8,5 @@
 
 #import "UIBarButtonItem+DPAdditions.h"
 #import "UIColor+DPAdditions.h"
+#import "UITabBar+DPAdditions.h"
 #import "UITableView+DPAdditions.h"

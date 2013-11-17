@@ -60,6 +60,10 @@
     return [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
 }
 
++ (UIBarButtonItem *)dp_itemWithCustomView:(UIView *)view {
+    return [[UIBarButtonItem alloc] initWithCustomView:view];
+}
+
 + (UIBarButtonItem *)dp_organizeItemWithTarget:(id)target action:(SEL)action {
     return [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemOrganize target:target action:action];
 }
