@@ -21,9 +21,7 @@
 
 - (void)setTabItemsEnabled:(BOOL)enabled {
     [self.items enumerateObjectsUsingBlock:^(UITabBarItem *item, NSUInteger idx, BOOL *stop) {
-        if (![item isEnabled]) {
-            [item setEnabled:NO];
-        }
+        [item setEnabled:enabled];
     }];
 }
 
