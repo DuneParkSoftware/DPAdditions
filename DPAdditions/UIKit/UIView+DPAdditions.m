@@ -23,7 +23,7 @@
         return YES;
     }
 
-    BOOL didEndEditing = NO;
+    __block BOOL didEndEditing = NO;
     __block id observer = [[NSNotificationCenter defaultCenter] addObserverForName:UIKeyboardDidHideNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification *note) {
         [[NSNotificationCenter defaultCenter] removeObserver:observer];
         completion(didEndEditing);
