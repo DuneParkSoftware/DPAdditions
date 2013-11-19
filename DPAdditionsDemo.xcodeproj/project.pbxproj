@@ -30,6 +30,7 @@
 		718B4A74182D1A0E00B8006E /* RACSignal+DPRACAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B4A73182D1A0E00B8006E /* RACSignal+DPRACAdditions.m */; };
 		718B7B55182D6C530047CEB1 /* DPUIKitAdditionsSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B7B54182D6C530047CEB1 /* DPUIKitAdditionsSpecs.m */; };
 		71A97139183890B70095B87C /* CGGeometry+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A97138183890B70095B87C /* CGGeometry+DPAdditions.m */; };
+		71B78C0C183AEB100021382B /* UINavigationController+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B78C0B183AEB100021382B /* UINavigationController+DPAdditions.m */; };
 		71D2E3BD182F2DDE00A3F3C8 /* UIColor+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D2E3BC182F2DDE00A3F3C8 /* UIColor+DPAdditions.m */; };
 		DE14A6150E174BFBABD3BCED /* libPods-DPAdditionsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E49F5805023C4F928FF3804F /* libPods-DPAdditionsDemo.a */; };
 /* End PBXBuildFile section */
@@ -87,6 +88,8 @@
 		718B7B54182D6C530047CEB1 /* DPUIKitAdditionsSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPUIKitAdditionsSpecs.m; sourceTree = "<group>"; };
 		71A97137183890B70095B87C /* CGGeometry+DPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+DPAdditions.h"; sourceTree = "<group>"; };
 		71A97138183890B70095B87C /* CGGeometry+DPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+DPAdditions.m"; sourceTree = "<group>"; };
+		71B78C0A183AEB100021382B /* UINavigationController+DPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DPAdditions.h"; sourceTree = "<group>"; };
+		71B78C0B183AEB100021382B /* UINavigationController+DPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DPAdditions.m"; sourceTree = "<group>"; };
 		71D2E3BB182F2DDE00A3F3C8 /* UIColor+DPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DPAdditions.h"; sourceTree = "<group>"; };
 		71D2E3BC182F2DDE00A3F3C8 /* UIColor+DPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DPAdditions.m"; sourceTree = "<group>"; };
 		D25543DD498B4FE391959BD8 /* Pods-DPAdditionsDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPAdditionsDemoTests.xcconfig"; path = "Pods/Pods-DPAdditionsDemoTests.xcconfig"; sourceTree = "<group>"; };
@@ -244,6 +247,8 @@
 				713BCF1918388673003103AF /* UITabBar+DPAdditions.m */,
 				71542CA718327EA10044C631 /* UITableView+DPAdditions.h */,
 				71542CA818327EA10044C631 /* UITableView+DPAdditions.m */,
+				71B78C0A183AEB100021382B /* UINavigationController+DPAdditions.h */,
+				71B78C0B183AEB100021382B /* UINavigationController+DPAdditions.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -428,6 +433,7 @@
 				7126B0FA183313C4008C88F4 /* NSUserDefaults+DPAdditions.m in Sources */,
 				716DAD9C182CAC38001C4773 /* NSString+DPAdditions.m in Sources */,
 				71542CA518326A6C0044C631 /* AFHTTPSessionManager+DPAFAdditions.m in Sources */,
+				71B78C0C183AEB100021382B /* UINavigationController+DPAdditions.m in Sources */,
 				716AA32D183076CB00FD7C66 /* UITextField+DPRACAdditions.m in Sources */,
 				718B4A74182D1A0E00B8006E /* RACSignal+DPRACAdditions.m in Sources */,
 				716DAD76182CAA1B001C4773 /* DPAppDelegate.m in Sources */,
