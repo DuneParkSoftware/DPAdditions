@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Eric Baker" => "ebaker@duneparksoftware.com" }
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/DuneParkSoftware/DPAdditions.git", :tag => "0.1.6" }
+  s.source       = { :git => "https://github.com/DuneParkSoftware/DPAdditions.git", :tag => "0.1.6a" }
   s.source_files = 'DPAdditions'
   s.requires_arc = true
   s.default_subspec = 'Core'
