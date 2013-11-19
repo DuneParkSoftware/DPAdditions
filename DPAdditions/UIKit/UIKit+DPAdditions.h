@@ -11,3 +11,4 @@
 #import "UINavigationController+DPAdditions.h"
 #import "UITabBar+DPAdditions.h"
 #import "UITableView+DPAdditions.h"
+#import "UIView+DPAdditions.h"
