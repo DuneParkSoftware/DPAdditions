@@ -6,6 +6,14 @@
 //  Copyright (c) 2013 DuneParkSoftware, LLC. All rights reserved.
 //
 
+#import "DPCollectionViewController.h"
+#import "DPNavigationController.h"
+#import "DPPageViewController.h"
+#import "DPSplitViewController.h"
+#import "DPTabBarController.h"
+#import "DPTableViewController.h"
+#import "DPViewController.h"
+
 #import "UIBarButtonItem+DPAdditions.h"
 #import "UIColor+DPAdditions.h"
 #import "UINavigationController+DPAdditions.h"

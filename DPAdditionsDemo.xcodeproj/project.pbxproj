@@ -29,6 +29,13 @@
 		716DAD9F182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 716DAD9E182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.m */; };
 		718B4A74182D1A0E00B8006E /* RACSignal+DPRACAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B4A73182D1A0E00B8006E /* RACSignal+DPRACAdditions.m */; };
 		718B7B55182D6C530047CEB1 /* DPUIKitAdditionsSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 718B7B54182D6C530047CEB1 /* DPUIKitAdditionsSpecs.m */; };
+		71A4A146183CFD670065105C /* DPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A4A13F183CFD670065105C /* DPNavigationController.m */; };
+		71A4A147183CFD670065105C /* DPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A4A141183CFD670065105C /* DPTabBarController.m */; };
+		71A4A148183CFD670065105C /* DPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A4A143183CFD670065105C /* DPTableViewController.m */; };
+		71A4A149183CFD670065105C /* DPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A4A145183CFD670065105C /* DPViewController.m */; };
+		71A4A14C183CFE5D0065105C /* DPSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A4A14B183CFE5D0065105C /* DPSplitViewController.m */; };
+		71A4A14F183CFECA0065105C /* DPPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A4A14E183CFECA0065105C /* DPPageViewController.m */; };
+		71A4A152183CFF110065105C /* DPCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A4A151183CFF110065105C /* DPCollectionViewController.m */; };
 		71A97139183890B70095B87C /* CGGeometry+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A97138183890B70095B87C /* CGGeometry+DPAdditions.m */; };
 		71B78C0C183AEB100021382B /* UINavigationController+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B78C0B183AEB100021382B /* UINavigationController+DPAdditions.m */; };
 		71D2E3BD182F2DDE00A3F3C8 /* UIColor+DPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D2E3BC182F2DDE00A3F3C8 /* UIColor+DPAdditions.m */; };
@@ -87,6 +94,20 @@
 		718B4A72182D1A0E00B8006E /* RACSignal+DPRACAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACSignal+DPRACAdditions.h"; sourceTree = "<group>"; };
 		718B4A73182D1A0E00B8006E /* RACSignal+DPRACAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACSignal+DPRACAdditions.m"; sourceTree = "<group>"; };
 		718B7B54182D6C530047CEB1 /* DPUIKitAdditionsSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPUIKitAdditionsSpecs.m; sourceTree = "<group>"; };
+		71A4A13E183CFD670065105C /* DPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPNavigationController.h; sourceTree = "<group>"; };
+		71A4A13F183CFD670065105C /* DPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPNavigationController.m; sourceTree = "<group>"; };
+		71A4A140183CFD670065105C /* DPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTabBarController.h; sourceTree = "<group>"; };
+		71A4A141183CFD670065105C /* DPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTabBarController.m; sourceTree = "<group>"; };
+		71A4A142183CFD670065105C /* DPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTableViewController.h; sourceTree = "<group>"; };
+		71A4A143183CFD670065105C /* DPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTableViewController.m; sourceTree = "<group>"; };
+		71A4A144183CFD670065105C /* DPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPViewController.h; sourceTree = "<group>"; };
+		71A4A145183CFD670065105C /* DPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPViewController.m; sourceTree = "<group>"; };
+		71A4A14A183CFE5D0065105C /* DPSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSplitViewController.h; sourceTree = "<group>"; };
+		71A4A14B183CFE5D0065105C /* DPSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSplitViewController.m; sourceTree = "<group>"; };
+		71A4A14D183CFECA0065105C /* DPPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPageViewController.h; sourceTree = "<group>"; };
+		71A4A14E183CFECA0065105C /* DPPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPageViewController.m; sourceTree = "<group>"; };
+		71A4A150183CFF110065105C /* DPCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCollectionViewController.h; sourceTree = "<group>"; };
+		71A4A151183CFF110065105C /* DPCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCollectionViewController.m; sourceTree = "<group>"; };
 		71A97137183890B70095B87C /* CGGeometry+DPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+DPAdditions.h"; sourceTree = "<group>"; };
 		71A97138183890B70095B87C /* CGGeometry+DPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+DPAdditions.m"; sourceTree = "<group>"; };
 		71B78C0A183AEB100021382B /* UINavigationController+DPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DPAdditions.h"; sourceTree = "<group>"; };
@@ -241,6 +262,20 @@
 		716DAD96182CAAEE001C4773 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				71A4A150183CFF110065105C /* DPCollectionViewController.h */,
+				71A4A151183CFF110065105C /* DPCollectionViewController.m */,
+				71A4A13E183CFD670065105C /* DPNavigationController.h */,
+				71A4A13F183CFD670065105C /* DPNavigationController.m */,
+				71A4A14D183CFECA0065105C /* DPPageViewController.h */,
+				71A4A14E183CFECA0065105C /* DPPageViewController.m */,
+				71A4A14A183CFE5D0065105C /* DPSplitViewController.h */,
+				71A4A14B183CFE5D0065105C /* DPSplitViewController.m */,
+				71A4A140183CFD670065105C /* DPTabBarController.h */,
+				71A4A141183CFD670065105C /* DPTabBarController.m */,
+				71A4A142183CFD670065105C /* DPTableViewController.h */,
+				71A4A143183CFD670065105C /* DPTableViewController.m */,
+				71A4A144183CFD670065105C /* DPViewController.h */,
+				71A4A145183CFD670065105C /* DPViewController.m */,
 				716DAD9D182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.h */,
 				716DAD9E182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.m */,
 				71D2E3BB182F2DDE00A3F3C8 /* UIColor+DPAdditions.h */,
@@ -436,16 +471,23 @@
 				713BCF1A18388673003103AF /* UITabBar+DPAdditions.m in Sources */,
 				716DAD9F182CAE6D001C4773 /* UIBarButtonItem+DPAdditions.m in Sources */,
 				7126B0FA183313C4008C88F4 /* NSUserDefaults+DPAdditions.m in Sources */,
+				71A4A152183CFF110065105C /* DPCollectionViewController.m in Sources */,
+				71A4A147183CFD670065105C /* DPTabBarController.m in Sources */,
 				716DAD9C182CAC38001C4773 /* NSString+DPAdditions.m in Sources */,
 				71D4059B183BDEEC0022D306 /* UIView+DPAdditions.m in Sources */,
 				71542CA518326A6C0044C631 /* AFHTTPSessionManager+DPAFAdditions.m in Sources */,
 				71B78C0C183AEB100021382B /* UINavigationController+DPAdditions.m in Sources */,
 				716AA32D183076CB00FD7C66 /* UITextField+DPRACAdditions.m in Sources */,
+				71A4A14F183CFECA0065105C /* DPPageViewController.m in Sources */,
+				71A4A14C183CFE5D0065105C /* DPSplitViewController.m in Sources */,
 				718B4A74182D1A0E00B8006E /* RACSignal+DPRACAdditions.m in Sources */,
+				71A4A148183CFD670065105C /* DPTableViewController.m in Sources */,
 				716DAD76182CAA1B001C4773 /* DPAppDelegate.m in Sources */,
+				71A4A146183CFD670065105C /* DPNavigationController.m in Sources */,
 				716DAD72182CAA1B001C4773 /* main.m in Sources */,
 				71D2E3BD182F2DDE00A3F3C8 /* UIColor+DPAdditions.m in Sources */,
 				71542CA918327EA10044C631 /* UITableView+DPAdditions.m in Sources */,
+				71A4A149183CFD670065105C /* DPViewController.m in Sources */,
 				71A97139183890B70095B87C /* CGGeometry+DPAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
