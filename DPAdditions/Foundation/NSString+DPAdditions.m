@@ -26,4 +26,34 @@
     return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
++ (NSString *)dp_stringFromBoolValue:(NSNumber *)value {
+    if (value && [value boolValue]) {
+        return NSLocalizedString(@"YES", @"YES");
+    }
+    return NSLocalizedString(@"NO", @"NO");
+}
+
++ (BOOL)dp_boolFromString:(NSString *)string {
+    BOOL value = NO;
+
+    string = [[string dp_trim] lowercaseString];
+    if ([string length] > 0) {
+        if ([string isEqualToString:@"true"] || [string isEqualToString:@"t"] ||
+            [string isEqualToString:@"yes"] || [string isEqualToString:@"y"] ||
+            [string isEqualToString:@"on"] || [string isEqualToString:@"1"] || [string isEqualToString:@"+"]) {
+            value = YES;
+        }
+    }
+
+    return value;
+}
+
 @end
+
+NSString *NSStringFromBoolValue(NSNumber *value) {
+    return [NSString dp_stringFromBoolValue:value];
+}
+
+BOOL BoolFromNSString(NSString *string) {
+    return [NSString dp_boolFromString:string];
+}
