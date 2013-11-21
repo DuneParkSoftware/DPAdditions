@@ -7,4 +7,5 @@
 //
 
 #import "RACSignal+DPRACAdditions.h"
+#import "UITableViewCell+DPRACAdditions.h"
 #import "UITextField+DPRACAdditions.h"
