@@ -302,10 +302,10 @@
 				718B4A72182D1A0E00B8006E /* RACSignal+DPRACAdditions.h */,
 				718B4A73182D1A0E00B8006E /* RACSignal+DPRACAdditions.m */,
 				716AA32E183079A200FD7C66 /* ReactiveCocoa+DPAdditions.h */,
-				716AA32B183076CB00FD7C66 /* UITextField+DPRACAdditions.h */,
-				716AA32C183076CB00FD7C66 /* UITextField+DPRACAdditions.m */,
 				71C59008183EC8E8000775E9 /* UITableViewCell+DPRACAdditions.h */,
 				71C59009183EC8E8000775E9 /* UITableViewCell+DPRACAdditions.m */,
+				716AA32B183076CB00FD7C66 /* UITextField+DPRACAdditions.h */,
+				716AA32C183076CB00FD7C66 /* UITextField+DPRACAdditions.m */,
 			);
 			path = ReactiveCocoa;
 			sourceTree = "<group>";
