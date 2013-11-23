@@ -20,9 +20,11 @@
 - (NSArray *)dp_rangesOfString:(NSString *)aString caseInsensitive:(BOOL)caseInsensitive;
 
 + (NSString *)dp_stringFromBoolValue:(NSNumber *)value;
++ (NSString *)dp_stringFromBOOL:(BOOL)aBool;
 + (BOOL)dp_boolFromString:(NSString *)string;
 
 @end
 
 extern NSString *NSStringFromBoolValue(NSNumber *value);
+extern NSString *NSStringFromBOOL(BOOL aBool);
 extern BOOL BoolFromNSString(NSString *string);

@@ -51,6 +51,10 @@
     return NSLocalizedString(@"NO", @"NO");
 }
 
++ (NSString *)dp_stringFromBOOL:(BOOL)aBool {
+    return [self dp_stringFromBoolValue:@(aBool)];
+}
+
 + (BOOL)dp_boolFromString:(NSString *)string {
     BOOL value = NO;
 
@@ -70,6 +74,10 @@
 
 NSString *NSStringFromBoolValue(NSNumber *value) {
     return [NSString dp_stringFromBoolValue:value];
+}
+
+NSString *NSStringFromBOOL(BOOL aBool) {
+    return [NSString dp_stringFromBOOL:aBool];
 }
 
 BOOL BoolFromNSString(NSString *string) {
