@@ -16,6 +16,9 @@
 - (NSUInteger)dp_lengthWhenTrimmed;
 - (NSString *)dp_trim;
 
+- (NSArray *)dp_rangesOfString:(NSString *)aString;
+- (NSArray *)dp_rangesOfString:(NSString *)aString caseInsensitive:(BOOL)caseInsensitive;
+
 + (NSString *)dp_stringFromBoolValue:(NSNumber *)value;
 + (BOOL)dp_boolFromString:(NSString *)string;
 
