@@ -2,6 +2,7 @@ platform :ios, "7.0"
 
 target "DPAdditionsDemo" do
     pod 'AFNetworking'
+    pod 'Mantle'
     pod 'ReactiveCocoa'
 end
 

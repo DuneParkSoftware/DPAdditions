@@ -11,9 +11,9 @@
 @protocol DPDeepCopying <NSObject>
 
 @required
-- (instancetype)deepCopyWithZone:(NSZone *)zone;
+- (instancetype)dp_deepCopyWithZone:(NSZone *)zone;
 
 @optional
-- (instancetype)deepCopy;
+- (instancetype)dp_deepCopy;
 
 @end
