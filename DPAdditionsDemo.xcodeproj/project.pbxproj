@@ -113,6 +113,7 @@
 		71A97138183890B70095B87C /* CGGeometry+DPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+DPAdditions.m"; sourceTree = "<group>"; };
 		71B78C0A183AEB100021382B /* UINavigationController+DPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DPAdditions.h"; sourceTree = "<group>"; };
 		71B78C0B183AEB100021382B /* UINavigationController+DPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DPAdditions.m"; sourceTree = "<group>"; };
+		71BC7484184E607E003BE17A /* DPDeepCopying.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPDeepCopying.h; sourceTree = "<group>"; };
 		71C59008183EC8E8000775E9 /* UITableViewCell+DPRACAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+DPRACAdditions.h"; sourceTree = "<group>"; };
 		71C59009183EC8E8000775E9 /* UITableViewCell+DPRACAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+DPRACAdditions.m"; sourceTree = "<group>"; };
 		71D2E3BB182F2DDE00A3F3C8 /* UIColor+DPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DPAdditions.h"; sourceTree = "<group>"; };
@@ -253,6 +254,7 @@
 			children = (
 				71A97137183890B70095B87C /* CGGeometry+DPAdditions.h */,
 				71A97138183890B70095B87C /* CGGeometry+DPAdditions.m */,
+				71BC7484184E607E003BE17A /* DPDeepCopying.h */,
 				716DAD98182CAC04001C4773 /* Foundation+DPAdditions.h */,
 				716DAD9A182CAC38001C4773 /* NSString+DPAdditions.h */,
 				716DAD9B182CAC38001C4773 /* NSString+DPAdditions.m */,
