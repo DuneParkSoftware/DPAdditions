@@ -13,6 +13,7 @@
 @interface UITableViewCell (DPRACAdditions)
 
 - (void)dp_registerRACObservation:(RACDisposable *)disposable;
+- (void)dp_registerRACObservations:(NSArray *)observations;
 - (void)dp_unregisterRACObservations;
 
 @end

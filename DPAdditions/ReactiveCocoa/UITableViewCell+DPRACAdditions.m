@@ -17,6 +17,7 @@ static const void *DPTableViewCellRACObservationsArrayKey = &DPTableViewCellRACO
 
 - (void)dp_registerRACObservation:(RACDisposable *)disposable {
     if (!disposable) return;
+    if (![disposable isKindOfClass:[RACDisposable class]]) return;
 
     __block NSMutableArray *observations = objc_getAssociatedObject(self, DPTableViewCellRACObservationsArrayKey);
     if (!observations) {
@@ -34,6 +35,12 @@ static const void *DPTableViewCellRACObservationsArrayKey = &DPTableViewCellRACO
     if (![observations containsObject:disposable]) {
         [observations addObject:disposable];
     }
+}
+
+- (void)dp_registerRACObservations:(NSArray *)observations {
+    [observations enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        [self dp_registerRACObservation:(RACDisposable *)obj];
+    }];
 }
 
 - (void)dp_unregisterRACObservations {

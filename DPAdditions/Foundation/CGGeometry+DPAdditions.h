@@ -1,6 +1,6 @@
 //
 //  CGGeometry+DPAdditions.h
-//  DPAdditionsDemo
+//  DPAdditions
 //
 //  Created by Eric D. Baker on 11/16/13.
 //  Copyright (c) 2013 DuneParkSoftware, LLC. All rights reserved.
@@ -11,6 +11,8 @@
 #ifndef CGGeometry_DPAdditions
 #define CGGeometry_DPAdditions
 
-CGRect CGRectCopy(CGRect rect);
+CGPoint CGPointCopy(CGPoint aPoint);
+CGRect CGRectCopy(CGRect aRect);
+CGSize CGSizeCopy(CGSize aSize);
 
 #endif
